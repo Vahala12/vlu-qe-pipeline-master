@@ -11,7 +11,7 @@ function login(username, password) {
     throw new Error('Password contains special characters');
   }
 
-  if (username !== 'admin' || password !== '123') {
+  if (username !== 'admin' || password !== '9999') {
     throw new Error('Invalid username or password');
   }
 
